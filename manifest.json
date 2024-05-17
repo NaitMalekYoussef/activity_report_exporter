@@ -1,0 +1,15 @@
+
+{
+    "name": "Activity report exporter",
+    "action": {
+      "default_icon": "my_icon.png"
+    },
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Chrome extention that  exports the activity report table to excel file",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "service-worker.js"
+    }
+  }
+  
